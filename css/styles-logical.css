@@ -98,7 +98,7 @@ summary {
 }
 
 details span {
-    padding-left: 10px;
+    padding-left: 15px;
 }
 
 details[open]>summary {
@@ -319,7 +319,11 @@ blockquote span::before {
         inline-size: 188px;
     }
 
-    .main {
+    .header {
+        z-index: 999;
+    }
+
+    main {
         z-index: -1;
     }
 }
