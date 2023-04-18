@@ -62,6 +62,17 @@
                                 <li><a href="#css">Qué es CSS</a></li>
                             </ol>
                         </details>
+                        <details>
+                            <summary><span>Modelo de Caja</span></summary>
+                            <ol>
+                                <li><a href="#box-model">¿De qué se compone el modelo de caja?</a></li>
+                                <li><a href="#config">Configuración por Defecto</a></li>
+                                <li><a href="#prop-fisicas">Propiedades Físicas</a></li>
+                                <li><a href="#prop-logicas">Propiedades Lógicas</a></li>
+                                <li><a href="#user-agent">User Agent Styles</a></li>
+                                <li><a href="#uni-rel">Unidades relativas</a></li>
+                            </ol>
+                        </details>
                     </nav>
                 </header>
             </div>
@@ -187,7 +198,7 @@
                     <hr>
                     <section class="section-content">
                         <h2>Modelo de caja</h2>
-                        <h3>El modelo de caja está compuesto por:</h3>
+                        <h3 id="box-model">El modelo de caja está compuesto por:</h3>
                         <p>Chrome va a ser el navegador que utilizaremos en el curso por su extenso soporte de nuevos
                             estándares y
                             herramientas de desarrollo avanzadas y de amigable uso.</p>
@@ -197,20 +208,20 @@
                             <li>Border / Bordes</li>
                             <li>Margin / Márgenes</li>
                         </ol>
-                        <h3>Configuración por defecto</h3>
+                        <h3 id="config">Configuración por defecto</h3>
                         <ol>
                             <li>direction: ltr (left to right)</li>
                             <li>writing-mode: horizontal-tb (top to bottom)</li>
                             <li>text-orientation: mixed</li>
                         </ol>
-                        <h3>Propiedades físicas para el modelo de caja:</h3>
+                        <h3 id="prop-fisicas">Propiedades físicas para el modelo de caja:</h3>
                         <ul>
                             <li>width / height</li>
                             <li>margin / margin-top | margin-right | margin-bottom | margin-left</li>
                             <li>border / border-top | border-right | border-bottom | border-left</li>
                             <li>padding / padding-top | padding-right | padding-bottom | padding-left</li>
                         </ul>
-                        <h3>Propiedades lógicas para el modelo de caja:</h3>
+                        <h3 id="prop-logicas">Propiedades lógicas para el modelo de caja:</h3>
                         <ul>
                             <li>inline-size / block-size</li>
                             <li>margin-block | margin-inline | margin-block-start | margin-block-end |
@@ -223,7 +234,7 @@
                                 padding-inline-start |
                                 padding-inline-end</li>
                         </ul>
-                        <h3>User Agent Styles</h3>
+                        <h3 id="user-agent">User Agent Styles</h3>
                         <p>Todos los elementos de html se ven diferentes gracias a esta hoja de estilos. Ayuda a que tu
                             documento tenga
                             mayor legibilidad, por coherencia está predefinido. Mantener estos estilos permite que los
@@ -231,7 +242,7 @@
                             existen
                             desde el principio de los tiempos no se rompan.
                             A través de css nosotros reemplazamos los estilos predefinidos.</p>
-                        <h3>Unidades Relativas</h3>
+                        <h3 id="uni-rel">Unidades Relativas</h3>
                         <p>
                             El tamaño relativo te ayuda a adaptar tu página a los distintos dispositivos (celular,
                             tablet, laptop, pc).
